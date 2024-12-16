@@ -18,9 +18,10 @@ Fill in your Discord bot token in `.env.example` and rename it to `.env`:
 mv .env.example .env
 ```
 
-### 3. Run the bot
+### 3. Install modules & run the bot
 
 ```bash
+pip3 install -r requirements.txt
 python3 main.py
 ```
 
